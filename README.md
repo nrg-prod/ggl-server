@@ -53,9 +53,8 @@ Update
 =======
 Not yet loaded
 
-Remove | Only Data
+Remove Txn | Only Data
 ==================
-db.randomNumber.remove( { } );
 
 db.publictree.remove( { } );
 
@@ -69,9 +68,15 @@ db.tempPrivateTree.remove( { } );
 
 db.tempOwnTree.remove( { } );
 
-db.MemberRanomNumber.remove( { } );
 
 db.memberDetails.remove( { } );
+
+Remove Master | Only Data
+==================
+
+db.MemberRanomNumber.remove( { } );
+
+db.randomNumber.remove( { } );
 
 Drop collection - do not use in Production
 ===============

@@ -10,11 +10,33 @@ User Name : ec2-user
 
 chmod 777 /etc/init.d/gglbootserv
 
-sudo service gglbootserv stop
+
+# Deploy the New Jar file - If you have new deployment in Back end
+
+Use WinScp Tool and Copy the gglserver.jar file before move the file server should be down.
+
+Path : /home/ec2-user/springboot
+
+Once successfully moved then start the service 
+
 
 # Start-service
 
 sudo service gglbootserv start
+
+# Verify the Log and see server up and Runnibng
+
+In Putty Terminal , Use the below command 
+
+cd /home/ec2-user/logs
+Next ,
+
+tail -200f gglserver.log
+
+Exit Terminal do ,
+Control + C 
+
+
 
 
 Connect Mongo DB

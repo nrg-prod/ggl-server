@@ -44,11 +44,10 @@ Connect Mongo DB
 
 mongo localhost/admin;
 
-use InvestmentDB;
-
 show databases;
 
 use InvestmentDB;
+
 
 Update 
 =======

@@ -6,7 +6,7 @@ SSL Port number : 22
 
 User Name : ec2-user
 
-# Stop-service
+# Stop-service ( putty black backround 35.162.40.190)
 
 chmod 777 /etc/init.d/gglbootserv
 
@@ -15,7 +15,9 @@ sudo service gglbootserv stop
 
 # Deploy the New Jar file - If you have new deployment in Back end
 
-Use WinScp Tool and Copy the gglserver.jar file before move the file server should be down.
+Use WinScp Tool ftp transfer 
+
+Copy the gglserver.jar file before move the file server should be down.
 
 Path : /home/ec2-user/springboot
 

@@ -9,6 +9,7 @@ User Name : ec2-user
 # Stop-service
 
 chmod 777 /etc/init.d/gglbootserv
+sudo service gglbootserv stop
 
 
 # Deploy the New Jar file - If you have new deployment in Back end
